@@ -10,10 +10,11 @@ The <a href="http://freemusicarchive.org/">Free Music Archive (FMA)</a> is a fre
 
 # Milestones:
 1- Network properties:
-  The object of this milestone is to start getting acquainted to the network that we will use for this project. In the first part of the milestone, we will load the features into Pandas dataframes and will create the adjacency matrix using Numpy. In the second part we will compute some basic properties of our network.
+  </br>The object of this milestone is to start getting acquainted to the network that we will use for this project. In the first part of the milestone, we will load the features into Pandas dataframes and will create the adjacency matrix using Numpy. In the second part we will compute some basic properties of our network.
+  
 2- Network models:
   The purpose of this milestone is to explore various random network models, analyse their properties and compare them to your network. In the first part of the milestone you will implement two random graph models and try to fit them to your network.
-3- <<a href="#">Spectral graph theory</a>:
+3- <a href="#">Spectral graph theory</a>:
   The goal of this milestone is to use the graph Laplacian and its spectral decomposition for extracting information about the graph.
 4- <a href="#">Graph signal processing</a>:
   The goal of this milestone is to do some Graph Signal Processing (GSP) on the data of your project to extract insights about the structure of our network.
