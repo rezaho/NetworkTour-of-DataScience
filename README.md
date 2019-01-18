@@ -1,24 +1,29 @@
-# A Recommendation System Based on Graph Theory
+# Playlist Generation Based on Graph Theory
 
 This project is part of "A Network Tour of Data Science" course.
 
-The goal of this project is to analyze the content created by an open community. Through the light of networks, it is possible to examine how music tracks relate to each other. Does genre structure the music? Do we observe groups of similar artists? Can we build a playlist that links two tracks through a smooth transition? To answer those questions, we will build a similarity graph between music tracks.
-For this project we will use the Free Music Archive (FMA) dataset (provided by TAs of the course) to explore these hypothesis and try to build a recommendation system based on a graph networks.
+The objective of this project is to generate a playlist that can bring the listener from his actual mood (e.g. angry or sad) to a mood he would like to be in (e.g. relaxed or happy).Through the light of networks, it is possible to examine how music tracks relate to each other. Can we build a playlist that links two very different tracks through a smooth transition? To answer this question, we will build a similarity graph between music tracks and choose a smooth path taking into account user's preference.
 
 # Dataset
-The <a href="http://freemusicarchive.org/">Free Music Archive (FMA)</a> is a free and open library directed by <a href="https://wfmu.org/">WFMU</a>, the longest-running freeform radio station in the United States. Inspired by <a href="https://creativecommons.org/">Creative Commons</a> and the open-source software movement, the FMA provides a platform for curators, artists, and listeners to harness the potential of music sharing. The website provides a large catalog of artists and tracks, hand-picked by established audio curators. Each track is legally free to download as artists decided to release their works under permissive licenses.
+In total, the project used four datasets, namely:
 
-# Milestones:
-1- Network properties:
-  </br>The object of this milestone is to start getting acquainted to the network that we will use for this project. In the first part of the milestone, we will load the features into Pandas dataframes and will create the adjacency matrix using Numpy. In the second part we will compute some basic properties of our network.
-  
-2- Network models:
-  </br>The purpose of this milestone is to explore various random network models, analyse their properties and compare them to your network. In the first part of the milestone you will implement two random graph models and try to fit them to your network.
+1. User’s History (Million Songs Dataset): https://labrosa.ee.columbia.edu/millionsong/tasteprofile (download link)
+2. Audio Features (from Spotify API): run code in "Collecting_and_Preproccessing_Data.ipynb"
+3. MetaData (from Spotify API): run code in "Collecting_Meta_Data.ipynb"
+4. Librosa Features (Computed with Librosa Library): run code in "Collecting_and_Preproccessing_Data.ipynb"
 
-3- <a href="#">Spectral graph theory</a>:
-  </br>The goal of this milestone is to use the graph Laplacian and its spectral decomposition for extracting information about the graph.
+# Project
+For detailed information about the project read our report.
 
-4- <a href="#">Graph signal processing</a>:
-  </br>The goal of this milestone is to do some Graph Signal Processing (GSP) on the data of your project to extract insights about the structure of our network.
+Once all datasets are installed, the following practical options are available to the user:
 
-5 - Final Milestone: (Ongoing...)
+1. Seed/end song selection.
+If the user wants the algorithm to define the seed(start) song or end song according to his/her mood selections,   he/she should assign to the variables end_song/seed_song the value returned by the function song_selection(Danceability,Energy,Valence) where the parameters represent the each mood dimension and should be between 0 and 1.
+If the user has a particular seed/end song that he wants to use, he/she can assign to the variables seed_song/end_song the corresponding node number of the desired songs (index of the adjacency matrix). 
+
+2. Cutoff (playlist lenght)
+If the user wants the playlist generated to have a specific lenght, he/she should adjust the variable "cutoff" in the network X method all_simple_paths. The playlist generated will have a maximum lenght of cutoff+1. Be aware that for comptational time reasons, cutoff should not be too much bigger (+3 max) than the shortest path lenght (otherwise to many paths are generated). 
+
+3. Lambda factor: This factor can be adjusted depending on how much the user wants the songs in the playlist to take into account his taste. 
+
+
