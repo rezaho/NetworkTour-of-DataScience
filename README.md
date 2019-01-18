@@ -30,6 +30,8 @@ If the user has a particular seed/end song that he wants to use, he/she can assi
 
 If the user wants the playlist generated to have a specific lenght, he/she should adjust the variable "cutoff" in the network X method all_simple_paths. The playlist generated will have a maximum lenght of cutoff+1. Be aware that for comptational time reasons, cutoff should not be too much bigger (+3 max) than the shortest path lenght (otherwise to many paths are generated). 
 
-3. Lambda factor: This factor can be adjusted depending on how much the user wants the songs in the playlist to take into account his taste. 
+3. Lambda factor
+
+This factor can be adjusted depending on how much the user wants the songs in the playlist to take into account his taste. 
 
 
