@@ -18,7 +18,7 @@ For detailed information about the project read our report.
 Once all datasets are installed, the following practical options are available to the user:
 
 1. Seed/end song selection.
-If the user wants the algorithm to define the seed(start) song or end song according to his/her mood selections,   he/she should assign to the variables end_song/seed_song the value returned by the function song_selection(Danceability,Energy,Valence) where the parameters represent the each mood dimension and should be between 0 and 1. []
+If the user wants the algorithm to define the seed(start) song or end song according to his/her mood selections,   he/she should assign to the variables end_song/seed_song the value returned by the function song_selection(Danceability,Energy,Valence) where the parameters represent the each mood dimension and should be between 0 and 1. [https://github.com/rezaho/NetworkTour-of-DataScience/blob/master/Generating_Playlists.ipynb]
 If the user has a particular seed/end song that he wants to use, he/she can assign to the variables seed_song/end_song the corresponding node number of the desired songs (index of the adjacency matrix). 
 
 2. Cutoff (playlist lenght)
