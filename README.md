@@ -2,7 +2,7 @@
 
 This project is part of "A Network Tour of Data Science" course.
 
-The objective of this project is to generate a playlist that can bring the listener from his actual mood (e.g. angry or sad) to a mood he would like to be in (e.g. relaxed or happy).Through the light of networks, it is possible to examine how music tracks relate to each other. Can we build a playlist that links two very different tracks through a smooth transition? To answer this question, we will build a similarity graph between music tracks and choose a smooth path taking into account user's preference.
+The objective of this project is to generate a playlist that can bring the listener from his actual mood (e.g. angry or sad) to a mood he would like to be in (e.g. relaxed or happy). Through the light of networks, it is possible to examine how music tracks relate to each other. Can we build a playlist that links two very different tracks through a smooth transition? To answer this question, we will build a similarity graph between music tracks and choose a smooth path taking into account user's preference.
 
 # Dataset
 In total, the project used four datasets, namely:
