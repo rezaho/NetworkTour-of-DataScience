@@ -18,7 +18,7 @@ For detailed information about the project read our report.
 Once all datasets are installed, the graph is generated:
 [Creating Similarity Graph](https://github.com/rezaho/NetworkTour-of-DataScience/blob/master/Creating_Similarity_Networks.ipynb)
 
-Finally, the following practical options are available in:
+Finally, the following practical options are available in order to generate a playlist to change user's mood:
 [Generating Playlist](https://github.com/rezaho/NetworkTour-of-DataScience/blob/master/Generating_Playlists.ipynb)
 
 1. Seed/end song selection.
