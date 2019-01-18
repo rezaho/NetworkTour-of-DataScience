@@ -7,7 +7,7 @@ The objective of this project is to generate a playlist that can bring the liste
 # Dataset
 In total, the project used four datasets, namely:
 
-1. User’s History (Million Songs Dataset): https://labrosa.ee.columbia.edu/millionsong/tasteprofile (download link)
+1. User’s History (Million Songs Dataset): [Million Songs Dataset](https://labrosa.ee.columbia.edu/millionsong/tasteprofile) (download link)
 2. Audio Features (from Spotify API): run code in [Collecting and Preproccessing Data](https://github.com/rezaho/NetworkTour-of-DataScience/blob/master/Collecting_and_Preproccessing_Data.ipynb)
 3. MetaData (from Spotify API): run code in [Collecting Meta Data](https://github.com/rezaho/NetworkTour-of-DataScience/blob/master/Collecting_Meta_Data.ipynb)
 4. Librosa Features (Computed with Librosa Library): run code in [Collecting and Preproccessing Data](https://github.com/rezaho/NetworkTour-of-DataScience/blob/master/Collecting_and_Preproccessing_Data.ipynb)
