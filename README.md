@@ -7,17 +7,17 @@ The objective of this project is to generate a playlist that can bring the liste
 # Usage
 To start with the project, you can make a new environment and first make sure you have the following libraries installed and ready:
 
-`Pandas`
-`Scikit-Learn`
-`Numpy`
-`Scipy`
-`NetworkX`
-`Seaborn`
-`MatplotLib`
-`Librosa`
-`Spotipy`
-`tqdm`
-`json`
+- `Pandas`
+- `Scikit-Learn`
+- `Numpy`
+- `Scipy`
+- `NetworkX`
+- `Seaborn`
+- `MatplotLib`
+- `Librosa`
+- `Spotipy`
+- `tqdm`
+- `json`
 
 # Dataset
 To start, you can clone the repository, then download the following zip file and add it to the 'data' folder:
