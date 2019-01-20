@@ -17,6 +17,8 @@ To start with the project, you can make a new environment and first make sure yo
 - `Librosa`
 - `Spotipy`
 - `tqdm`
+- `multiprocessing`
+- `urllib`
 - `json`
 
 # Dataset
