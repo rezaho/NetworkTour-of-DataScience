@@ -5,11 +5,22 @@ This project is part of "A Network Tour of Data Science" course.
 The objective of this project is to generate a playlist that can bring the listener from his actual mood (e.g. angry or sad) to a mood he would like to be in (e.g. relaxed or happy). Through the light of networks, it is possible to examine how music tracks relate to each other. Can we build a playlist that links two very different tracks through a smooth transition? To answer this question, we will build a similarity graph between music tracks and choose a smooth path taking into account user's preference.
 
 # Usage
-To start with the project, please first make sure you have the following libraries installed and ready:
+To start with the project, you can make a new environment and first make sure you have the following libraries installed and ready:
+
+`Pandas`
+`Scikit-Learn`
+`Numpy`
 `Scipy`
+`NetworkX`
+`Seaborn`
+`MatplotLib`
+`Librosa`
+`Spotipy`
+`tqdm`
+`json`
 
 # Dataset
-To start with the dataset you can clone the repository, then download the following zip file and add it to the 'data' folder:
+To start, you can clone the repository, then download the following zip file and add it to the 'data' folder:
 [Download the Prepared dataset](https://goo.gl/ixQiBE) (download link)
 
 
