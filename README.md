@@ -33,9 +33,9 @@ To start, you can clone the repository, then download the following zip file and
 - MetaData were dataset constructed and added using Spotify API: detailed codes can be found in [Collecting Meta Data](https://github.com/rezaho/NetworkTour-of-DataScience/blob/master/Collecting_Meta_Data.ipynb)
 - Features dataset were computed and added using Librosa Library: detailed codes can be found in [Collecting and Preproccessing Data](https://github.com/rezaho/NetworkTour-of-DataScience/blob/master/Collecting_and_Preproccessing_Data.ipynb) (Declaration: the functions for calculating the features were inspired from FMA dataset created by Michaël Defferrard, Kirell Benzi, Pierre Vandergheynst, and Xavier Bresson [https://github.com/mdeff/fma/blob/master/features.py](Link)
 
-# Main Codes of the Project
+# Main Parts of the Project
 For detailed information about the project, you may read our report:
-- [https://github.com/rezaho/NetworkTour-of-DataScience/blob/master/Team_52_Project%20Report.pdf](Report.pdf)
+- [Report.pdf](https://github.com/rezaho/NetworkTour-of-DataScience/blob/master/Team_52_Project%20Report.pdf)
 
 For the detailed codes about the main part of the project, you may refer the following notebooks:
  - [Creating Similarity Graph](https://github.com/rezaho/NetworkTour-of-DataScience/blob/master/Creating_Similarity_Networks.ipynb)
